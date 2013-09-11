@@ -15,40 +15,38 @@
 	$("#intro").css("height",document.documentElement.clientHeight);
 	$("#second").css("height",document.documentElement.clientHeight);
 	$("#third").css("height",document.documentElement.clientHeight);
+	$("#forth").css("height",document.documentElement.clientHeight);
 	$("#fifth").css("height",document.documentElement.clientHeight);
-	$("#sixth").css("height",document.documentElement.clientHeight);
 	$("#last").css("height",document.documentElement.clientHeight);
 	$("#intro .bg").css("margin-top",document.documentElement.clientHeight-$("#intro .bg").css("height") );
 	$(".float-center").css("margin-top", document.documentElement.clientHeight * 0.9-$(".float-center").height() );
 
-	//	alert(document.documentElement.clientWidth);
-	//	alert(document.documentElement.clientHeight);
-	$('#intro').parallax("50%", 0,true);
+/*	$('#intro').parallax("50%", 0,true);
 	$('#second').parallax("50%", 0,true);
-	//	$('.bg').parallax("50%", 0.4);
 	$('#third').parallax("50%", 0,true);
 	$('#fifth').parallax("50%", 0,true);
-
+	*/
 })
 </script>
 </head>
 <body>
-    <style type="text/css">
-		#intro .bg{
-		height:100px;   
-		left:200px;
-		bottom:0px;
-		/*width:400px;*/
-		margin: 0 auto;
-		margin-bottom:0px;
-		padding: 0;
-		position: absolute;
-		width: 900px;
-		z-index: 200;
-		float: right;
-		margin: 0 20px 0 0;
-		}
-    </style>
+<style type="text/css">
+/* 向上滑动屏幕 */
+#intro .bg{
+	height:100px;   
+	left:200px;
+	bottom:0px;
+	/*width:400px;*/
+	margin: 0 auto;
+	margin-bottom:0px;
+	padding: 0;
+	position: absolute;
+	width: 900px;
+	z-index: 200;
+	float: right;
+	margin: 0 20px 0 0;
+}
+</style>
 
 	<ul id="nav">
 		<li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
@@ -56,7 +54,6 @@
 	    <li><a href="#third" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
 	    <li><a href="#forth" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
 	    <li><a href="#fifth" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-	    <li><a href="#sixth" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
 	    <li><a href="#last" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
 	</ul>
 	
@@ -74,6 +71,7 @@
 	<div id="second">
 		<div class="story">
 	    	<div class="float-right">
+
 	            <h2>小e工作室</h2>
 	            <p>你是否也是一个对计算机世界痴迷的电脑爱好者？<br/>
 你是否对神奇的软件编程领域充满好奇？<br/>
@@ -129,23 +127,7 @@
 	        </div>
 	    </div> <!--.story-->
 	</div> <!--#fifth-->
-	
-	<div id="sixth">
-		<div class="story"><div class="bg"></div>
-	    	<div class="float-right">
-	            <h2>FORTH   小e工作室</h2>
-	            <p>你是否也是一个对计算机世界痴迷的电脑爱好者？<br/>
-你是否对海报编辑排版感兴趣？<br/>
-你是否想为今后奋斗储备知识，领先一步？<br/>
-那么快点加入我们吧！<br/>
-让你了解平面设计软件，照片处理和海报制作等。<br/>
-学习开发静态和动态网站的知识。建立起属于自己的网站！<br/>
-</p>
-	        </div>
-	    </div> <!--.story-->
-	</div> <!--#sixth-->
 
-	
 	<div id="last">
 		<div class="story"></div>
 	    	<div class="float-right">
@@ -153,7 +135,7 @@
 	            <p>时间：2013年09月09日-15日 社团展示周 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
 	            <!--p>时间：2013年9月XX日-YY日 association demonstration week</p-->
 	            <p>地点：新校区 北环路 社团展示区 小e工作室展位</p>
-	            <p>联系方式：甘延虎 18865382207         王雪涛18865385830<br/>
+	            <p>联系方式：甘延虎 18865382207         王雪涛 18865385830<br/>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 霍焕东 18865386570         王亚琦 18865381800</p>
 	        </div>
 	    </div> <!--.story-->
